@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+   <style>
+    h1{ /*box-level, para mudar para inline só usar "display:inline"*/
+        background-color: gray;
+        height: 260px;
+        width: 364px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: rgba(207, 188, 162, 0.923);
+        /*em shorthand fica border: 4px solid rgba*/
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+         /*Em shorthand é "padding" apenas, colocando os valores em sentido Horário : top,right,bottom e left*/
+        margin: auto;
+        outline-width: 5px;
+        outline-color: salmon;
+        outline-style: groove;
+        /* Shorthand é "outline" na ordem: width,style e color*/
+        margin-top: 20px;
+        margin-bottom: 30px;
+        
+
+    }
+    a{/*Inline-level, para mudar para box-level só usar "display:block"*/
+        border-width: 4px;
+        border-style: solid;
+        border-color: rgba(89, 89, 235, 0.459);
+        /*em shorthand fica border: 4px solid rgba*/
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        /*Em shorthand é "padding" apenas, colocando os valores em sentido Horário : top,right,bottom e left*/
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        
+        
+        
+    }
+
+
+   </style>
+</head>
+<body>
+    <h1>exemplo de caixa box-level</h1>
+    <p>parágrafos também são exemplos de caixa box-level,<a href="#">mas os links são exemplos de Inline-Level</a></p>
+    
+</body>
+</html>
